@@ -16,7 +16,7 @@ public class VoterEligibility {
 	}
 	
 	public static void main(String[] args) {
-		VoterEligibility aadhar=new VoterEligibility();
-		aadhar.Check("Indian", 19);
+		VoterEligibility vcheck = new VoterEligibility();
+		vcheck.Check("Indian", 9);
 	}
 }
